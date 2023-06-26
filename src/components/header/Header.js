@@ -1,61 +1,13 @@
-// import React from "react";
-// import './header.css';
-// import searchbar from '../assest/searchbar.svg';
-// import header_icon1 from '../assest/header_icon1.svg';
-// import header_icon2 from '../assest/header_icon2.svg';
-// import header_icon3 from '../assest/header_icon3.svg';
-// import dropdown from '../assest/dropdown.svg';
-// import header_avatar from '../assest/header_avatar.svg';
-// import Task from '../task/task.js';
-// import BoardList from '../board/boardList.js';
-
-
-
-
-// function Header() {
-//     return (
-//         <div className="container">
-//             <div className="main">
-//                 <div className="search">
-//                     <img src={searchbar} className="searchbar_image"></img>
-//                     <input text="Search" placeholder="Search for anything..." className="search_input" />
-//                 </div>
-//                 <div className="icons">
-//                     <img src={header_icon1} className="header_icons"></img>
-//                     <img src={header_icon2} className="header_icons"></img>
-//                     <img src={header_icon3} className="header_icons"></img>
-//                     <div className="avatar">
-//                         <div className="name">Anima Agarwal <br /> <div className="grey">U.P, India</div></div>
-//                         <img src={header_avatar}></img>
-//                         <img src={dropdown}></img>
-//                     </div>
-//                 </div>
-//             </div>
-//             <Task />
-//             <BoardList />
-//         </div>
-
-//     )
-// }
-
-// export default Header;
 
 import task_header_icon1 from '../assets/task_header_icon1.svg';
 import task_header_icon2 from '../assets/task_header_icon2.svg';
 import task_header_icon3 from '../assets/task_header_icon3.svg';
-// import filter_today from '../assets/filter_today.svg';
-// import share from '../assets/share.svg';
-
-// import EditIcon from "../../assets/icons/edit.svg";
-// import LinkIcon from "../../assets/icons/link.svg";
-// import CreateIcon from "../../assets/icons/create.svg";
 import FilterIcon from "../assets/filter.svg";
 import DateIcon from "../assets/date.svg";
 import GridIcon from "../assets/grid.svg";
-import PauseIcon from "../assets/pause.svg";
+import IconInsideBox from "../assets/IconInsideBox.svg";
 import ShareIcon from "../assets/share.svg";
 import ArrowDownIcon from "../assets/arrowDown.svg";
-// import Members from "../members/Members";
 
 const Header = () => {
   return (
@@ -69,11 +21,7 @@ const Header = () => {
           <img src={task_header_icon2} alt="Link" />
         </div>
         <div className="flex items-center justify-around md:self-start">
-          <img src={task_header_icon3} alt="Create" />
-          {/* <span className="text-base font-medium text-indigo-600 ml-2 mr-3 -mt-1">
-            Invite
-          </span> */}
-          {/* <Members /> */}
+          <img src={task_header_icon3} alt="Group" />
         </div>
       </div>
 
@@ -98,7 +46,7 @@ const Header = () => {
           </div>
           <div className="border border-solid border-gray-400 h-[28px] mx-5"></div>
           <div className="flex items-center justify-center bg-[#5030E5] mr-5 w-[40px] h-[40px] rounded-md">
-            <img src={PauseIcon} alt="PauseIcon" />
+            <img src={IconInsideBox} alt="IconInsideBox" />
           </div>
           <img src={GridIcon} alt="GridIcon" />
         </div>

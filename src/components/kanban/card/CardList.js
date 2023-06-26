@@ -62,22 +62,4 @@ const CardList = ({ todoList, type, id }) => {
   );
 };
 
-// CardList.propTypes = {
-//   todoList: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.number.isRequired,
-//       title: PropTypes.string.isRequired,
-//       description: PropTypes.string,
-//       image: PropTypes.arrayOf(PropTypes.string),
-//       priority: PropTypes.string.isRequired,
-//       status: PropTypes.string.isRequired,
-//       comments: PropTypes.number.isRequired,
-//       files: PropTypes.number.isRequired,
-//       users: PropTypes.arrayOf(PropTypes.string).isRequired,
-//     })
-//   ).isRequired,
-//   type: PropTypes.oneOf(["not-started", "started", "done"]).isRequired,
-//   id: PropTypes.string.isRequired,
-// };
-
 export default CardList;

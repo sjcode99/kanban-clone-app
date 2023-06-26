@@ -1,5 +1,4 @@
 import { Draggable } from "react-beautiful-dnd";
-// import PropTypes from "prop-types";
 import Users from "../user/User";
 import Moodboard1 from "../../assets/images/Moodboard-1.png";
 import MobileAppDesign from "../../assets/images/mobile-app.png";
@@ -82,20 +81,5 @@ const CardItem = ({ todo, index }) => {
     </Draggable>
   );
 };
-
-// CardItem.propTypes = {
-//   todo: PropTypes.shape({
-//     id: PropTypes.number.isRequired,
-//     title: PropTypes.string.isRequired,
-//     description: PropTypes.string,
-//     image: PropTypes.arrayOf(PropTypes.string),
-//     priority: PropTypes.oneOf(["high", "low", "completed"]).isRequired,
-//     status: PropTypes.oneOf(["todo", "on progress", "done"]).isRequired,
-//     comments: PropTypes.number.isRequired,
-//     files: PropTypes.number.isRequired,
-//     users: PropTypes.arrayOf(PropTypes.string).isRequired,
-//   }).isRequired,
-//   index: PropTypes.number.isRequired,
-// };
 
 export default CardItem;

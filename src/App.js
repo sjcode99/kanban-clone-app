@@ -7,12 +7,6 @@ import Kanban from './components/kanban/Kanban.js';
 
 function App() {
   return (
-    // <>
-    //   <div className='sidebar w-full'>
-    //     <Sidebar />
-    //     <Header />
-    //   </div>
-    // </>
     <div className="flex w-full">
       <Sidebar />
       <div className="flex flex-col w-full border-red-300">

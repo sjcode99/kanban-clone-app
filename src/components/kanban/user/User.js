@@ -1,7 +1,7 @@
-import person1 from "../assets/person1.svg";
-import person2 from "../assets/person2.svg";
-import person3 from "../assets/person3.svg";
-import person4 from "../assets/person4.svg";
+import person1 from "../../assets/person1.svg";
+import person2 from "../../assets/person2.svg";
+import person3 from "../../assets/person3.svg";
+import person4 from "../../assets/person4.svg";
 
 const Users = ({ users, width, height, offset, overlap }) => {
   const showUsers = users.length > 4 ? users.slice(0, 4) : users;
