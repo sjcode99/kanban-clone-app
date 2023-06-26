@@ -9,7 +9,7 @@
 </a>
 
 # A) For Mobile Screen:
-<img  width="100%"  height="100%"  src="./src//components/assets/images/CaptureKanbanMobile.PNG"/>
+<img  width="50%"  height="100%"  src="./src//components/assets/images/CaptureKanbanMobile.PNG"/>
 
 
 ### Front-end Technology :
