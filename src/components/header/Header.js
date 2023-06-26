@@ -27,12 +27,12 @@ const Header = () => {
 
       <div className="flex flex-col md:flex-row items-center justify-between mt-10 gap-5 md:gap-0 lg:gap-0">
         <div className="flex items-center gap-3">
-          <div className="flex items-center border w-[122px] h-[40px] rounded-md py-4 pr-5 pl-3 border-solid border-gray-400">
+          <div className="flex items-center border w-[122px] h-[40px] text-[#787486] font-medium rounded-md py-4 pr-5 pl-3 border-solid border-gray-400">
             <img src={FilterIcon} alt="FilterIcon" className="mr-3" />
             <span className="text-base mr-4">Filter</span>
             <img src={ArrowDownIcon} alt="ArrowDownIcon" />
           </div>
-          <div className="flex items-center border w-[125px] h-[40px] rounded-md py-4 pr-5 pl-3 border-solid border-gray-400">
+          <div className="flex items-center border w-[125px] h-[40px] text-[#787486] font-medium rounded-md py-4 pr-5 pl-3 border-solid border-gray-400">
             <img src={DateIcon} alt="DateIcon" className="mr-3" />
             <span className="text-base mr-4">Today</span>
             <img src={ArrowDownIcon} alt="ArrowDownIcon" />
@@ -40,7 +40,7 @@ const Header = () => {
         </div>
 
         <div className="flex items-center justify-center">
-          <div className="flex items-center border w-[97px] h-[40px] rounded-md py-4 pl-3 pr-3 border-solid border-gray-400">
+          <div className="flex items-center border w-[97px] h-[40px] text-[#787486] font-medium rounded-md py-4 pl-3 pr-3 border-solid border-gray-400">
             <img src={ShareIcon} alt="DateIcon" className="mr-2" />
             <span className="text-base mr-4">Share</span>
           </div>
