@@ -1,16 +1,19 @@
-
 const SidebarDot = ({ text, color }) => {
   const bgColor = `w-[8px] h-[8px] rounded-full ${color}`;
 
   return (
     <li
-      className={`flex items-center justify-between mx-3 pl-3 py-[10px] rounded-md ${
+      className={`flex items-center justify-between mx-3 pl-3 py-[10px] rounded-md font-medium ${
         text === "Mobile App" && "font-semibold bg-purple-200 bg-opacity-30"
       } hover:cursor-pointer transition relative`}
     >
       <div className="flex items-center justify-center">
         <div className={bgColor}></div>
-        <span className="text-base ml-3">{text}</span>
+        {text === "Mobile App" ? (
+          <span className="text-base ml-3">{text}</span>
+        ) : (
+          <span className="text-base ml-3 text-[#787486]">{text}</span>
+        )}
       </div>
       <div
         className={`flex justify-center items-center absolute top-1/2 right-2 mr-4 transform -translate-y-1/2 ${
@@ -24,6 +27,5 @@ const SidebarDot = ({ text, color }) => {
     </li>
   );
 };
-
 
 export default SidebarDot;
